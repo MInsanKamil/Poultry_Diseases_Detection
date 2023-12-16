@@ -2,13 +2,11 @@
 
 Kaggle Notebook: https://www.kaggle.com/insankamil1004/kamil-yolov8
 
-### CIoU Loss Function
+### CIoU Loss Function:
 
-The CIoU loss function is defined as:
+$$ L_{CIoU} = 1 - \text{IoU} + \frac{d^2}{C^2} + \alpha v $$
 
-\[ L_{CIoU} = 1 - IoU + \frac{d^2}{C^2} + \alpha v \]
-
-### Model Evaluation
+### Model Evaluation:
 
 - **Total Loss:** 1.2307
   - Box Loss: 1.0388
