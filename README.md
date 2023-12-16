@@ -2,7 +2,7 @@
 
 Kaggle Notebook: https://www.kaggle.com/insankamil1004/kamil-yolov8
 
-### CIoU Loss Function (Box Loss):
+## CIoU Loss Function (Box Loss)
 
 $$ L_{CIoU} = 1 - \text{IoU} + \frac{d^2}{C^2} + \alpha v $$
 
@@ -12,7 +12,7 @@ $$ v = \frac{4}{\pi^2}(arctan\frac{w^{gt}}{h^{gt}} - arctan\frac{w}{h})^2 $$
 
 $$ \alpha = \frac{v}{(1-IoU) + v} $$
 
-### Model Evaluation:
+## Model Evaluation
 
 - **Total Loss:** 1.2307
   - Box Loss: 1.0388
