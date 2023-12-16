@@ -2,7 +2,7 @@
 
 Kaggle Notebook: https://www.kaggle.com/insankamil1004/kamil-yolov8
 
-### CIoU Loss Function:
+### CIoU Loss Function (Box Loss):
 
 $$ L_{CIoU} = 1 - \text{IoU} + \frac{d^2}{C^2} + \alpha v $$
 
