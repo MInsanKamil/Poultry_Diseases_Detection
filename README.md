@@ -1,6 +1,6 @@
 ## Poultry Diseases Detection
 
-Kaggle Notebook: https://www.kaggle.com/insankamil1004/kamil-yolov8
+Kaggle Notebook: [Link to Notebook](https://www.kaggle.com/insankamil1004/kamil-yolov8)
 
 ## CIoU Loss Function (Box Loss)
 
