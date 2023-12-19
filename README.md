@@ -14,25 +14,25 @@ $$ \alpha = \frac{v}{(1-IoU) + v} $$
 
 ## Model Evaluation
 
-- **Total Loss:** 1.2307
-  - Box Loss: 1.0388
-  - Class Loss: 0.1919
+- **Total Loss:** 1.0158
+  - Box Loss: 0.8695
+  - Class Loss: 0.1463
 
-- **Total Validation Loss:** 1.3289
-  - Validation Box Loss: 1.1277
-  - Validation Class Loss: 0.2012
+- **Total Validation Loss:** 1.2293
+  - Validation Box Loss: 1.0498
+  - Validation Class Loss: 0.1795
 
-- **Mean Average Precision(MaP):** 0.4252
-  - MaP@[IoU=50]: 0.6511
-  - MaP@[IoU=75]: 0.4607
-  - MaP@[area=small]: 0.2214
-  - MaP@[area=medium]: 0.3984
-  - MaP@[area=large]: 0.5520
+- **Mean Average Precision(MaP):** 0.4681
+  - MaP@[IoU=50]: 0.7298
+  - MaP@[IoU=75]: 0.4896
+  - MaP@[area=small]: 0.2132
+  - MaP@[area=medium]: 0.4627
+  - MaP@[area=large]: 0.5581
 
 - **Recall**
-  - Recall@[max_detections=1]: 0.4525
-  - Recall@[max_detections=10]: 0.5031
-  - Recall@[max_detections=100]: 0.5031
-  - Recall@[area=small]: 0.2531
-  - Recall@[area=medium]: 0.4696
-  - Recall@[area=large]: 0.6417
+  - Recall@[max_detections=1]: 0.4938
+  - Recall@[max_detections=10]: 0.5425
+  - Recall@[max_detections=100]: 0.5425
+  - Recall@[area=small]: 0.2886
+  - Recall@[area=medium]: 0.5252
+  - Recall@[area=large]: 0.6294
