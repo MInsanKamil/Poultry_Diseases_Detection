@@ -2,7 +2,7 @@
 
 Kaggle Notebook: [Link to Notebook](https://www.kaggle.com/insankamil1004/kamil-yolov8)
 
-Inference Notebook : [Link to Inference Notbook](https://github.com/MInsanKamil/Poultry_Diseases_Detection/blob/main/Poultry_Diseases_Detection_YOLOv8.ipynb)
+Inference Notebook : [Link to Inference Notbook](https://github.com/MInsanKamil/Poultry_Diseases_Detection/blob/main/Loading_Model_%26_Testing.ipynb)
 ## CIoU Loss Function (Box Loss)
 
 $$ L_{CIoU} = 1 - \text{IoU} + \frac{d^2}{C^2} + \alpha v $$
